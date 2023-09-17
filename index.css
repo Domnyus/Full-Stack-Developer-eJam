@@ -1,0 +1,211 @@
+h1
+{
+    font-size: 48px;
+    margin: 5vw 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #fafafa;
+}
+
+.align-items-center
+{
+    align-items: center;
+}
+
+.to-gray
+{
+    color: #5c5c5c;
+}
+
+.to-center
+{
+    text-align: center !important;
+}
+
+.to-justify
+{
+    text-align: justify;
+}
+
+.to-blue
+{
+    color: #5389ff;
+}
+
+.percent
+{
+    background-color: #79a4ff;
+    border-radius: 5vw;
+    color: #ffffff;
+    text-align: center;
+    padding: 1vw;
+}
+
+.blue-square
+{
+    background-color: #dee4f0;
+    border-radius: 3vw;
+    margin: 0vw;
+    align-items: center;
+}
+
+button.yes
+{
+    margin: 3vw 1vw;
+    background-color: #4af533;
+    border-radius: 20px;
+    border: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 1vw 0;
+    width: 100%;
+}
+
+div.blocked
+{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+    color: #6e6e6e;
+    margin: 3vw 0;
+}
+
+div :has(img.semi-icon)
+{
+    align-items: center;
+    display: flex;
+}
+img.semi-icon
+{
+    max-width: 50px;
+}
+
+.refuse
+{
+    color: #e63946 !important;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+
+.footer
+{
+    background-color: #14213d;
+    color: #e5e5e5;
+    font-size: 13px;
+    text-align: center;
+    padding: 6vw 0;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.text-transform-upper
+{
+    text-transform: uppercase;
+}
+
+.stage-1
+{
+    color: #ffffff;
+    background-color: #4af533;
+
+    border-radius: 4vw;
+    padding: 2vw;
+    text-align: center;
+}
+
+.stage-2
+{
+    color: #ffffff;
+    background-color: #5389ff;
+
+    border-radius: 4vw;
+    padding: 2vw;
+}
+
+.stage-3
+{
+    color: #5389ff;
+    background-color: #ffffff;
+    border: 1px solid #5389ff;
+
+    border-radius: 4vw;
+    padding: 2vw;
+}
+
+@media only screen and (min-width: 576px) {
+    .hidden
+    {
+        display: none;
+    }
+
+    .visible
+    {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 756px) {
+    .hidden
+    {
+        display: block;
+    }
+
+    .visible
+    {
+        display: none;
+    }
+
+    .product
+    {
+        margin: 4vw 0;
+    }
+
+    div.blocked
+    {
+        margin: 0 !important;
+    }
+
+    .stage-1
+    {
+        border-radius: 20px;
+        padding: 10%;
+    }
+    
+    .stage-2
+    {
+        border-radius: 20px;
+        padding: 10%;
+    }
+    
+    .stage-3
+    {
+        border-radius: 20px;
+        padding: 10%;
+    }
+
+    div.main
+    {
+        background-color: #f0f0f0;
+        margin: 2vw auto;
+        padding: 2vw;
+    }
+
+    .to-right
+    {
+        text-align: right;
+    }
+
+    .verified
+    {
+        color: #4cd837;
+    }
+
+}
